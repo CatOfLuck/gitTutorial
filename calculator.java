@@ -3,9 +3,14 @@ public class calculator{
 	private int result;
 //суммируем аргументы 
 //парам и парамс - аргументы суммирования
-	public void add(int ... params){
+	public void plus(int ... params){
 		for(Integer param : params){
 			this.result += param;		
+		}
+	}
+	public void minuse(int ... params){
+		for(Integer param : params){
+			this.result -= param;
 		}
 	}
 //take the result
