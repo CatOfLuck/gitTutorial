@@ -1,6 +1,6 @@
 public class calculator{
 //результат вічисления.
-	private int result;
+	public int result;
 //суммируем аргументы 
 //парам и парамс - аргументы суммирования
 	public void plus(int ... params){

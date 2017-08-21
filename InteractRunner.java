@@ -18,7 +18,8 @@ public class InteractRunner {
                         calc.plus(Integer.valueOf(first), Integer.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }else if(action.equals("-")){
-                        calc.minuse(Integer.valueOf(first), Integer.valueOf(second));
+			calc.result = Integer.valueOf(first);
+                        calc.minuse(Integer.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }
                     System.out.println("Exit : yes/no");
@@ -44,7 +45,8 @@ public class InteractRunner {
                         calc.plus(Integer.valueOf(first), Integer.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }else if(action.equals("-")){
-                        calc.minuse(Integer.valueOf(first), Integer.valueOf(second));
+			calc.result = Integer.valueOf(first);
+                        calc.minuse(Integer.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }
                     System.out.println("Exit : yes/no");
