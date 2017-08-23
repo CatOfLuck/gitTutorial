@@ -15,30 +15,30 @@ public class InteractRunner {
                     System.out.println("Enter second arg : ");
                     String second = in.next();
                     if(action.equals("+")){
-                        calc.plus(Integer.valueOf(first), Integer.valueOf(second));
+                        calc.plus(Double.valueOf(first), Double.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }else if(action.equals("-")){
-			calc.result = Integer.valueOf(first);
-                        calc.minuse(Integer.valueOf(second));
+			calc.result = Double.valueOf(first);
+                        calc.minuse(Double.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }else if(action.equals("*")){
-			calc.result = Integer.valueOf(first);
-                        calc.mult(Integer.valueOf(second));
+			calc.result = Double.valueOf(first);
+                        calc.mult(Double.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }else if(action.equals("/")){
-			calc.result = Integer.valueOf(first);
-                        calc.div(Integer.valueOf(second));
+			calc.result = Double.valueOf(first);
+                        calc.div(Double.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }else if(action.equals("^")){
-			calc.result = Integer.valueOf(first);
-                        calc.exp(Integer.valueOf(second));
+			calc.result = Double.valueOf(first);
+                        calc.exp(Double.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }
                     System.out.println("Exit : yes/no");
                     exit=in.next();
                 }else{
 		System.out.println("mistake? " + calc.getResult());
-                String first = Integer.toString(calc.getResult());
+                String first = Double.toString(calc.getResult());
                     if(exit.equals("no")){
                         System.out.println("Countinue this example? yes/no");
                         String example = in.next();
@@ -54,23 +54,23 @@ public class InteractRunner {
                     System.out.println("Enter second arg : ");
                     String second = in.next();
                     if(action.equals("+")){
-                        calc.plus(Integer.valueOf(first), Integer.valueOf(second));
+                        calc.plus(Double.valueOf(first), Double.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }else if(action.equals("-")){
-			calc.result = Integer.valueOf(first);
-                        calc.minuse(Integer.valueOf(second));
+			calc.result = Double.valueOf(first);
+                        calc.minuse(Double.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }else if(action.equals("*")){
-			calc.result = Integer.valueOf(first);
-                        calc.mult(Integer.valueOf(second));
+			calc.result = Double.valueOf(first);
+                        calc.mult(Double.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }else if(action.equals("/")){
-			calc.result = Integer.valueOf(first);
-                        calc.div(Integer.valueOf(second));
+			calc.result = Double.valueOf(first);
+                        calc.div(Double.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }else if(action.equals("^")){
-			calc.result = Integer.valueOf(first);
-                        calc.exp(Integer.valueOf(second));
+			calc.result = Double.valueOf(first);
+                        calc.exp(Double.valueOf(second));
                         System.out.println("Result : "+ calc.getResult());
                     }
                     System.out.println("Exit : yes/no");
